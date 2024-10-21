@@ -41,15 +41,10 @@ def check_negative_balance(current_balance):
 def deposit(current_balance):
     deposit_amount = input("Enter the amount to deposit: ").strip()
     deposit_amount = validate_amount(deposit_amount)
-
     if deposit_amount is not None and deposit_amount > 0:
         current_balance += deposit_amount
         print(f"Deposit successful! Your new balance is ${current_balance:.2f}.")
-    else:
-        print("Error: Please enter a positive number.")
-
     return current_balance
-
 
 # Function to handle the withdrawal process
 def withdraw(current_balance):
@@ -60,9 +55,6 @@ def withdraw(current_balance):
         current_balance -= withdraw_amount
         print(f"Withdrawal successful! Your new balance is ${current_balance:.2f}.")
         check_negative_balance(current_balance)
-    else:
-        print("Error: Please enter a positive number.")
-
     return current_balance
 
 
