@@ -3,9 +3,9 @@
 # Due Date: 10/23
 # Programming Assignment: Lab 06
 # Problem Statement:  This program allows users to interact with their account balance by depositing, withdrawing, and viewing their balance.
-# Data In: [what information do you request from the user?]
-# Data Out:  [What information do you display for the user?]
-# Credits: [Is your code based of an example in the book, in class, or something else?  Reminder: you should never take code from the Internet or another person.]
+# Data In: Amount of money to deposit or withdraw
+# Data Out: Balance
+# Credits: None
 
 
 # Function to display the welcome message
