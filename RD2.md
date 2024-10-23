@@ -1,7 +1,8 @@
 # Reflection Document
 
-* Drive Full Name  : 
-* Partner Full Name: 
-* Student ID: 
+* Drive Full Name  : Oreoluwa Adebusoye
+* Partner Full Name: Cooper Nazar
+* Student ID: 001883626
+
 
 

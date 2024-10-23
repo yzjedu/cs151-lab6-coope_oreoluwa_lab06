@@ -1,8 +1,8 @@
-# Programmers:  [your name here]
-# Course:  CS151, [Instructors name here]
-# Due Date: [date assignment is due]
-# Programming Assignment:  [number of assignment]
-# Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
+# Programmers:  Cooper Nazar, Oreoluwa Adebusoye
+# Course: CS151, Zelalem Yalew
+# Due Date: 10/23
+# Programming Assignment: Lab 06
+# Problem Statement:  This program allows users to interact with their account balance by depositing, withdrawing, and viewing their balance.
 # Data In: [what information do you request from the user?]
 # Data Out:  [What information do you display for the user?]
 # Credits: [Is your code based of an example in the book, in class, or something else?  Reminder: you should never take code from the Internet or another person.]
@@ -58,7 +58,7 @@ def withdraw(current_balance):
     return current_balance
 
 
-# Function to display the current balance
+# Function to view the current balance
 def view_balance(current_balance):
     print(f"Your current balance is ${current_balance:.2f}.")
 
@@ -81,11 +81,10 @@ def process_choice(choice, current_balance):
 # Main function to run the ATM program
 def atm_program():
     display_welcome()
-    # Initialize variables
-    INITIAL_BALANCE = 1000
-    current_balance = INITIAL_BALANCE
-    SENTINEL = 'E'
-    choice = ''
+    INITIAL_BALANCE = 1000 # Set the initial balance
+    current_balance = INITIAL_BALANCE  # Initialize the current balance
+    SENTINEL = 'E'  # Define the exit condition
+    choice = ''  # Initialize choice variable
 
     while choice.upper() != SENTINEL:
         display_menu()
