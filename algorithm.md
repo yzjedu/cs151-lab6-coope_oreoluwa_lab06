@@ -235,4 +235,4 @@ Algorithm:
    2. Prompt the user for input and store in choice. 
    3. Convert choice to uppercase. 
    4. Call process choice function and update current balance. 
-   5. Output "ATM program has ended."
+   5. Output "ATM program has ended." 
