@@ -1,11 +1,11 @@
 # Programmers:  [your name here]
-# Course:  CS151, [Instructors name here]
-# Due Date: [date assignment is due]
-# Programming Assignment:  [number of assignment]
-# Problem Statement:  [what problem does your code solve; i.e., calculating inches from centimeters]
-# Data In: [what information do you request from the user?]
-# Data Out:  [What information do you display for the user?]
-# Credits: [Is your code based of an example in the book, in class, or something else?  Reminder: you should never take code from the Internet or another person.]
+# Course:  CS151, Professor Yalew
+# Due Date: 10/24/2024
+# Programming Assignment:  Lab 06
+# Problem Statement:  This program is meant to simulate an ATM, where a user can deposit money, withdraw money, view their balance, and exit the program
+# Data In: Amount of money to deposit or withdraw
+# Data Out: Balance
+# Credits:
 
 
 # Function to display the welcome message
